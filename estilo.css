@@ -1,0 +1,129 @@
+
+@charset "UTF-8";
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+}
+* {
+    margin: 0vw;
+}
+body {
+    
+    background-color: #faf9f8;
+    /*background-image: linear-gradient(to top, #063d1e48, #25854e3d, #2fa86550, 
+    #3ddc84, #8ce7b5c5 ,#83e1adcb );*/
+}
+header {
+    background-image: linear-gradient(to top, #063d1e, #1a5c37, #2fa866, 
+    #3ddc84, #8ce7b5 ,#83e1ad9a );
+    padding: 30px;
+    border: rgba(14, 12, 12, 0.26) solid ;
+}
+h1 {
+    color: rgba(248, 245, 245, 0.925);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(70, 63, 63, 0.151);
+}
+a#p{
+    color: #0a0a0a;
+}
+footer {
+    background-image: linear-gradient(to top, #063d1ed7, #25854fad, #2fa865bb, 
+    #3ddc84, #8ce7b5fa ,#83e1ade8 );
+    text-align: center;
+    border: rgba(0, 0, 0, 0.5) solid ;
+   
+}
+
+main {
+    padding-left: 30px;
+    background-color: rgba(253, 252, 251, 0.986);
+    margin-left: 10px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    box-shadow: 2px 2px 2px rgba(37, 37, 37, 0.623);
+    border: rgba(0, 0, 0, 0.288) solid ;
+}
+nav {
+   
+    padding-top: -40px;
+}
+nav#menu{
+    margin-left: -30px;
+}
+input#sair{
+    position: relative;
+ 
+
+}
+nav > ul {
+    
+    background-image: linear-gradient(to top, #063d1e, #1a5c37);
+}
+ a {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 20px;
+    padding-left: 30px;
+    color: rgba(214, 239, 245, 0.993);
+   text-decoration: none;  
+   /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507); */
+  
+}
+a:hover {
+    color: black;
+    text-shadow: 2px 2px 2px  rgba(7, 7, 20, 0.349);
+    
+}
+div.video {
+    
+    margin: 0px -20px 0px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+    
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+h2.foto {
+    text-align: center;
+    color: #f2f7f4;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.151);
+}
+p {
+    margin: 20px 0px ;
+}
+div#interface {
+    /*text-align: inherit;*/
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
+}
+div#aside {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
+}
+div#aside1{
+    text-decoration-color: rgb(20, 19, 19);
+    font-size: 24px;
+}
+
+p#obs {
+    font-size: 12px;
+    color: red;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
+}
+div#pb{
+    margin-bottom: -20px;
+}
+h4 {
+    text-decoration: none;
+    text-shadow: none;
+}
